@@ -32,10 +32,6 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Tech Stack */}
-          <p className="text-muted-foreground text-xs font-mono">
-            React + TypeScript + Tailwind
-          </p>
         </div>
       </div>
     </footer>
