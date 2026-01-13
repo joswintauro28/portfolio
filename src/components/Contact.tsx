@@ -58,12 +58,9 @@ const Contact = () => {
               Send Message
             </a>
             <a
-              href="#"
+              href="/joswin_cv.pdf"
+              download="Joswin_Tauro_Resume.pdf"
               className="btn-outline"
-              onClick={(e) => {
-                e.preventDefault();
-                alert('Add your resume PDF link here to enable download!');
-              }}
             >
               <Download size={18} />
               Download Resume
