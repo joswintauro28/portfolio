@@ -1,4 +1,5 @@
 import { ArrowDown, Github, Mail, FileText } from 'lucide-react';
+import profileImage from '@/assets/profile.jpg';
 
 const Hero = () => {
   return (
@@ -21,8 +22,12 @@ const Hero = () => {
       <div className="section-container relative z-10 text-center">
         {/* Profile Photo Placeholder */}
         <div className="mb-8 opacity-0 animate-fade-up">
-          <div className="w-36 h-36 mx-auto rounded-full bg-gradient-to-br from-primary/30 to-primary/10 border-2 border-primary/50 flex items-center justify-center shadow-[var(--glow-primary)]">
-            <span className="text-5xl font-bold text-gradient">JT</span>
+          <div className="w-36 h-36 mx-auto rounded-full bg-gradient-to-br from-primary/30 to-primary/10 border-2 border-primary/50 overflow-hidden shadow-[var(--glow-primary)]">
+            <img 
+              src={profileImage} 
+              alt="Joswin Tauro" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
