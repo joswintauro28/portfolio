@@ -1,4 +1,4 @@
-import { Heart, Github, Mail } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,9 +8,8 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Copyright */}
-          <p className="text-muted-foreground text-sm flex items-center gap-1">
-            © {currentYear} Joswin Tauro. Built with 
-            <Heart size={14} className="text-primary fill-primary" />
+          <p className="text-muted-foreground text-sm">
+            © {currentYear} Joswin Tauro. All rights reserved.
           </p>
 
           {/* Social Links */}
